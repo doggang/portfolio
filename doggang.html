@@ -6,120 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DogGang Portfolio</title>
     <style>
-        html,body,section{
-          height: 100%;
-        }
-        #sec_header{
-            width: 100%;
-            height: 100%;
-            background-color: rgb(53, 192, 157);
-        }
-        #sec_header_img{
-            position: absolute;
-            left: 50%;
-            top: 27%;
-            width: 240px;
-            margin-left: -120px;
-        }
-        #sec_header_title1{
-            position: absolute;
-            color: white;
-            font-size: 70px;
-            font-weight: 700;
-            top: 65%;
-            left: 50%;
-            margin-left: -408px;
-        }
-        #sec_header_hr1{
-            position: absolute;
-            background-color: white;
-            border: 2px solid white;
-            width: 180px;
-            top: 82%;
-            left: 33%;
-        }
-        #sec_header_img2{
-            position: absolute;
-            width: 70px;
-            top: 77%;
-            left: 50%;
-            margin-left: -35px;
-        }
-        #sec_header_hr2{
-            position: absolute;
-            background-color: white;
-            border: 2px solid white;
-            width: 180px;
-            top: 82%;
-            left: 55%;
-        }
-        #sec_article{
-            width: 100%;
-            height: 300px;
-            position: relative;
-            background-color: white;
-        }
-        #sec_article_title1{
-            color: rgb(48, 60, 78);
-            font-size: 53px;
-            font-weight:bold;
-            text-align: center;
-            margin-top: 80px;
-        }
-        #sec_article_h1{
-            position: absolute;
-            background-color: rgb(48, 60, 78);;
-            border: 2px solid rgb(48, 60, 78);;
-            width: 180px;
-            top: 38%;
-            left: 33%;
-        }
-        #sec_article_img{
-            position: absolute;
-            top: 29%;
-            width: 50px;
-            left: 50%;
-            margin-left: -25px;
-        }
-        #sec_article_h2{
-            position: absolute;
-            background-color: rgb(48, 60, 78);;
-            border: 2px solid rgb(48, 60, 78);;
-            width: 180px;
-            top: 38%;
-            left: 55%;
-        }
-        #art_container{
-            position: absolute;
-            display: grid;          
-            top: 60%;
-	        grid-template-columns: 380px 380px 380px;
-	        grid-template-rows: 250px 250px;
-            row-gap: 30px;
-            column-gap: 30px; 
-            left: 50%;
-            margin-left: -600px;
-        }
-        .box{
-        }
-        #box1{
-            background-color: tomato;
-        }
-        #box2{
-            background-color: yellowgreen;
-        }
-        #box3{
-            background-color: tomato;
-        }
-        #box4{
-            background-color: yellowgreen;
-        }
-        #box5{
-            background-color: tomato;
-        }
-        #box6{
-            background-color: yellowgreen;
-        }
+
     </style>
 </head>
 <body>
@@ -138,6 +25,7 @@
             <hr id="sec_header_hr1">
             <img id="sec_header_img2" src="image/star.png" alt="">
             <hr id="sec_header_hr2">
+            <p id="sec_header_title2">Front-end Developer</p>
         </header>
         <article id="sec_article">
             <p id="sec_article_title1">PORTFOLIO</p>
@@ -146,16 +34,33 @@
             <hr id="sec_article_h2">
             <div id="art_container">
                 <div id="box1" class="box">
-                    <img src="image/cabin.png" width="380px">
+                    <img src="image/cabin.png">
+                    <div class="box_plus">+</div>
                 </div>
-                <div id="box2" class="box"></div>
-                <div id="box3" class="box"></div>
-                <div id="box4" class="box"></div>
-                <div id="box5" class="box"></div>
-                <div id="box6" class="box"></div>
+                <div id="box2" class="box">
+                    <img src="image/cake.png" alt="">
+                    <div class="box_plus">+</div>
+                </div>
+                <div id="box3" class="box">
+                    <img src="image/circus.png" alt="">
+                    <div class="box_plus">+</div>
+                </div>
+                <div id="box4" class="box">
+                    <img src="image/game.png" alt="">
+                    <div class="box_plus">+</div>
+                </div>
+                <div id="box5" class="box">
+                    <img src="image/safe.png" alt="">
+                    <div class="box_plus">+</div>
+                </div>
+                <div id="box6" class="box">
+                    <img src="image/submarine.png" alt="">
+                    <div class="box_plus">+</div>
+                </div>
             </div>
         </article>
     </section>
     <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="article1.css">
 </body>
 </html>
