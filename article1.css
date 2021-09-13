@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 html,body,section{
     height: 100%;
   }
@@ -34,7 +37,7 @@ html,body,section{
   #sec_header_img2{
       position: absolute;
       width: 70px;
-      top: 78.5%;
+      top: 77.5%;
       left: 50%;
       margin-left: -35px;
   }
@@ -51,7 +54,7 @@ html,body,section{
       position: absolute;
       color: white;
       font-size: 27px;
-      top: 85%;
+      top: 88%;
       left: 50%;
       margin-left: -123.7px;
   }
@@ -60,7 +63,7 @@ html,body,section{
       height: 300px;
       position: relative;
       background-color: white;
-      margin-bottom: 200px;
+      margin-bottom: 600px;
   }
   #sec_article_title1{
       color: rgb(48, 60, 78);
@@ -104,12 +107,17 @@ html,body,section{
       column-gap: 40px; 
       left: 50%;
       margin-left: -610px;
+      height: 700px;
   }
-  .box img{
+  .box1 img{
       width:380px;
       border-radius: 10px;
   }
-  .box_plus{
+  .box2 img{
+    width:380px;
+    border-radius: 10px;
+  }
+  .box_plus1{
       position: absolute;
       display:none;
       width: 380px;
@@ -119,12 +127,30 @@ html,body,section{
       line-height: 244px;
       text-align: center;
       color: white;
-      font-size: 150px;
+      font-size: 120px;
       font-weight: bold;
       top: 0px;
       opacity: 0.9;
       transition-duration: 2s;
   }
-  .box:hover .box_plus{
+  .box_plus2{
+    position: absolute;
+    display:none;
+    width: 380px;
+    height: 274.44px;
+    border-radius: 10px;
+    line-height: 244px;
+    text-align: center;
+    color: white;
+    font-size: 120px;
+    font-weight: bold;
+    top: 334px;
+    opacity: 0.9;
+    background-color: rgb(53, 192, 157);
+  }
+  .box1:hover .box_plus1{
+      display: block;
+  }
+  .box2:hover .box_plus2{
       display: block;
   }

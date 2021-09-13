@@ -1,0 +1,104 @@
+#sec_article2{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-color: rgb(53, 192, 157);
+    padding: 130px 0 130px 0;
+}
+#sec_article2_p{
+    position: absolute;
+    left: 50%;
+    margin-left: -102.925px;
+    top: 15%;
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+#sec_article2_hr1{
+    position: absolute;
+    background-color: white;
+    border: 2px solid white;
+    top: 34%;
+    width: 180px;
+    right: 50%;
+    margin-right: 70px;
+}
+#sec_article2_img{
+    position: absolute;
+    width: 70px;
+    top: 28.2%;
+    left: 50%;
+    margin-left: -35px;
+}
+#sec_article2_hr2{
+    position: absolute;
+    background-color: white;
+    border: 2px solid white;
+    top: 34%;
+    width: 180px;
+    left: 50%;
+    margin-left: 70px;
+}
+#sec_article2_span1{
+    position: absolute;
+    top: 40%;
+    right: 50%;
+    margin-right: -80px;
+    color: white;
+    font-size: 22px;
+    width: 300px;
+}
+#sec_article2_span2{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left: 80px;
+    color: white;
+    font-size: 22px;
+    width: 300px;
+}
+#sec_article2_a1{
+    position: absolute;
+    top: 70%;
+    right: 50%;
+    margin-right: 20px;
+    padding: 3px 10px 3px 10px;
+    border: 2px solid white;
+    color: white;
+    font-size: 25px;
+    border-radius : 6px;
+    text-align: center;
+    height: 40px;
+    width: 130px;
+    line-height: 40px;
+    font-weight: 600;
+}
+#sec_article2_a1:hover{
+    background-color: white;
+    color: rgb(53, 192, 157);
+    transition-property: background-color color;
+    transition-duration: 0.3s;
+}
+#sec_article2_a2{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-left: 20px;
+    padding: 3px 10px 3px 10px;
+    border: 2px solid white;
+    color: white;
+    font-size: 25px;
+    border-radius : 6px;
+    text-align: center;
+    height: 40px;
+    width: 130px;
+    line-height: 40px;
+    font-weight: 600;
+}
+#sec_article2_a2:hover{
+    background-color: white;
+    color: rgb(53, 192, 157);
+    transition-property: background-color color;
+    transition-duration: 0.3s;
+}
