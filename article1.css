@@ -90,8 +90,8 @@ html,body,section{
   }
   #sec_article_h2{
       position: absolute;
-      background-color: rgb(48, 60, 78);;
-      border: 2px solid rgb(48, 60, 78);;
+      background-color: rgb(48, 60, 78);
+      border: 2px solid rgb(48, 60, 78);
       width: 180px;
       top: 38%;
       left: 50%;

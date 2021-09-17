@@ -6,11 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DogGang Portfolio</title>
     <style>
-        #sec_article3{
-            width: 100%;
-            height: 500px;
-            background-color: white;
+        *{
+            border: 0;
+            margin:0;
+            padding: 0;
         }
+        #sec_footer{
+            display: flex;
+            position: relative;
+            color:white;
+            width: 100%;
+            height: 240px;
+            background-color: rgb(48, 60, 78);
+        }
+        .sec_footer_div{
+            text-align: center;
+            font-size: 28px;
+            font-weight: 600;
+            padding-top: 47px;
+            width: 100%;
+        }
+        #sec_footer_div1_p2{
+            padding-top: 20px;
+            font-size: 18px;
+            font-weight: 500;
+        }
+        #sec_footer_div2_p1{
+            padding-bottom: 20px;
+        }
+        #sec_footer_div2_div{
+            position: relative;
+        }
+        #sec_footer_div2_img1{
+            width: 60px;
+            position: absolute;
+            left: 35%;
+        }
+        #sec_footer_div2_img2{
+            display: none;
+            width: 60px;
+            position: absolute;
+            left: 35%;
+        }
+        #img1:hover~ #sec_footer_div2_img2{
+            display: block;
+        }
+        #sec_footer_div2_img3{
+            width: 60px;
+            position: absolute;
+            right: 35%;
+        }
+        #sec_footer_div2_img4{
+            display: none;
+            width: 60px;
+            position: absolute;
+            right: 35%;
+        }
+        #img3:hover ~ #sec_footer_div2_img4{
+            display: block;
+        }
+        #sec_footer_div3_p2{
+            padding-top: 20px;
+            font-size: 18px;
+            font-weight: 500;
+        }
+        #sec_footer_div2{
+            left: 50%;
+        }
+        
     </style>
 </head>
 <body>
@@ -70,18 +133,62 @@
             <hr id="sec_article2_hr1">
             <img id="sec_article2_img" src="image/star.png" alt="">
             <hr id="sec_article2_hr2">
-            <span id="sec_article2_span1">Hallym.univ<br>BigData<br>Kim DoHyun</span>
+            <span id="sec_article2_span1">Hallym.univ<br>BigData<br>Kim Do Hyun</span>
             <span id="sec_article2_span2">I develop html and css abilities while doing clone coding.
                 This will make me grow further.</span>
                 <a id="sec_article2_a1" href="#">GitHub</a>
                 <a id="sec_article2_a2" href="#">Instagram</a>
         </article>
         <article id="sec_article3">
-
+           <p id="sec_article3_p">CONTACT ME</p>
+           <hr id="sec_article3_hr1">
+           <img id="sec_article3_img" src="image/blackstar.png" alt="">
+           <hr id="sec_article3_hr2">
+           <form action="https://www.localhost/login.php">
+           <div id="sec_article3_input1" class="sec_article3_input">
+                <label id="name_label" for="name">Full name</label><br>
+                <input id="name" type="text"></input>
+           </div>
+           <div id="sec_article3_input2" class="sec_article3_input">
+                <label id="email_label" for="email">Email address</label><br>
+                <input id="email" type="email">
+           </div>
+           <div id="sec_article3_input3" class="sec_article3_input">
+                <label id="p_num_label" for="p_num">Phone number</label><br>
+                <input id="p_num" type="text">
+           </div>
+           <div id="sec_article3_input4" class="sec_article3_input">
+                <label id="message_label" for="message">Message</label><br>
+                <textarea name="" id="message" cols="30" rows="10"></textarea>
+           </div>
+           <input id="sec_article3_sub" type="submit" value="Send">
+           </form>
         </article>
+        <footer id="sec_footer">
+            <div id="sec_footer_div1" class="sec_footer_div">
+                <p id=sec_footer_div1_p1>Location</p>
+                <p id=sec_footer_div1_p2>1 Hallimdaehak-gil,<br>Chuncheon-si, Gangwon-do,<br>Republic of Korea (24252)</p>
+            </div>
+            <div id="sec_footer_div2" class="sec_footer_div">
+                <p id="sec_footer_div2_p1">AROUND THE WEB</p>
+                <div id="sec_footer_div2_div">
+                    <a id="img1" href=""><img id="sec_footer_div2_img1" src="image/fb_white.png" alt=""></a>
+                    <img id="sec_footer_div2_img2"  src="image/fb_black.png" alt="">
+                    <a id="img3" href=""><img id="sec_footer_div2_img3"  src="image/instagram_white.png" alt=""></a>
+                    <img id="sec_footer_div2_img4"  src="image/instagram_black.png" alt="">
+                </div>
+            </div>
+            <div id="sec_footer_div3" class="sec_footer_div">
+                <p id="sec_footer_div3_p1">Career</p>
+                <p id="sec_footer_div3_p2">Majoring in Big Data<br>
+                171 Hallym.ROTC
+                </p>
+            </div>
+        </footer>
     </section>
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="article1.css">
     <link rel="stylesheet" href="article2.css">
+    <link rel="stylesheet" href="article3.css">
 </body>
 </html>
