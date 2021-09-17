@@ -102,3 +102,10 @@
     transition-property: background-color color;
     transition-duration: 0.3s;
 }
+#p2{
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    margin-bottom: 83px;
+}
